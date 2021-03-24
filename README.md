@@ -8,6 +8,6 @@
   <h2 align="middle">Part 1: Ray Generation and Intersection</h2>
   <p>Describe what you did in Part 1. etc...</p>
           <div class="row">
-            <img src="images/ray/CBsphere_n.png" width="480px" />
-            <img src="images/ray/CBgem_n.png" width="480px" />
+            <img src="images/ray/CBsphere_n.png" width="200px" />
+            <img src="images/ray/CBgem_n.png" width="200px" />
           </div>
