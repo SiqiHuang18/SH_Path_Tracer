@@ -7,12 +7,7 @@
    
   <h2 align="middle">Part 1: Ray Generation and Intersection</h2>
   <p>Describe what you did in Part 1. etc...</p>
-          <div align="center">
-              <table style="width=100%">
-                  <tr>
-                      <td align="middle">
-                      <img src="images/ray/CBsphere_n.png" width="480px" />
-                      <figcaption align="middle">Results Caption: my bunny is the bounciest bunny</figcaption>
-                  </tr>
-              </table>
+          <div class="row">
+            <img src="images/ray/CBsphere_n.png" width="480px" />
+            <img src="images/ray/CBgem_n.png" width="480px" />
           </div>
