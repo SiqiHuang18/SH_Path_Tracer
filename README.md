@@ -14,8 +14,8 @@
    Besides the origin and direction value, we attach additional t_min and t_max values to ray object. These two values can accelerate intersection test by excluding the intersection points are outside of a ray's valid time range. Time ranges are updated every time a valid intersection with an object is found. 
     
   <div class="row">
-    <img src="images/ray/CBsphere_n.png" width="300px" />
-    <figcaption>Intersection with spheres in cornell box</figcaption>
+    <img src="images/ray/CBsphere_n.png" width="300px" /> 
+    <figcaption align="middle">Intersection with spheres in cornell box</figcaption>
     <img src="images/ray/CBgem_n.png" width="300px" />
     <figcaption>Intersection with triangle meshes in cornell box</figcaption>
   </div>
