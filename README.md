@@ -23,14 +23,9 @@ Besides the origin and direction value, we attach additional t_min and t_max val
   <h2 align="middle">Part 2: Bounding Volume Hierarchy</h2>
   
   Bounding volume hierarchy utilizes tree structures to accelerate ray scene intersection tests. At each level, geometric primitives are grouped into several bounding boxes, so that each ray can intersect bounding boxes first before intersecting the actual primitive. Here a simple median centroid heurstic is implemented to split the primitives. That is during the recursive construction of BVH, at each level of the tree, each primitive is partitioned into left node or right node based on the comparison between its centroid position and the median of all primitive centroids at this level. The intersection algorithm time complexity reduces roughly from O(N) to O(logN) where N is the number of primtives. 
+
   
-<div align="center">  
-  <table style="width=100%">
-    <tr>
-        <td align="middle">
-        <img src="images/bbox/teapot.png" width="480px" />
-        <figcaption align="middle">Second level of BVH constructed on a Utah Teapot</figcaption>
-   </tr>
-  </table>
-</div>
+<img src="images/bbox/teapot.png" width="480px" />
+<figcaption align="middle">Second level of BVH constructed on a Utah Teapot</figcaption>
+ 
 
