@@ -1,6 +1,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 <h1 align="middle">Path Tracer Write-up</h1>
+All results tested on Macbook Pro 2.4 GHz Dual-Core Intel Core i5
 
   <h2 align="middle">Overview</h2>
    This is a cpu based path tracer that implements the core rendering loop from ray generation and intersection to global illumination. It has acceleration strategy like bounding volume hierachy and adaptive sampling and supports various materials, environment lighting and depth of field. Each core functionality is demonstrated in this writeup. This project builds upon the starter code of UC Berekeley CS184 Assignment 3.     
@@ -31,3 +32,11 @@ Besides the origin and direction value, we attach additional t_min and t_max val
 <p align = "center">
 Second level of BVH constructed on a Utah Teapot
 </p>
+
+Below are experiment results on two test meshes with output image size 800x600
+
+<img src="images/bbox/peter.png" width="300px" /> | <img src="images/bbox/cow.png" width="300px" />|
+|-|-|
+0.158 s wth BVH| 0.1822 s with BVH|
+330 s without BVH | 36 s with BVH|
+
