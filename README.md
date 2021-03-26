@@ -27,5 +27,7 @@ Besides the origin and direction value, we attach additional t_min and t_max val
   
 <p alignt = "center">
 <img src="images/bbox/teapot.png" width="480px" />
+</p>
+<p alignt = "center">
 Second level of BVH constructed on a Utah Teapot
 </p>
