@@ -21,5 +21,6 @@ Besides the origin and direction value, we attach additional t_min and t_max val
    Intersection with spheres in cornell box | Intersection with triangle meshes in cornell box|
 
   <h2 align="middle">Part 2: Bounding Volume Hierarchy</h2>
-  Bounding volume hierarchy utilizes tree structures to accelerate ray scene intersection tests. At each level, geometric primitives are grouped into several bounding boxes, so that each ray can intersect bounding boxes first before intersecting the actual primitive. The intersection algorithm time complexity reduces roughly from O(n) to O(logn) where n is the number of primtives.
+  
+  Bounding volume hierarchy utilizes tree structures to accelerate ray scene intersection tests. At each level, geometric primitives are grouped into several bounding boxes, so that each ray can intersect bounding boxes first before intersecting the actual primitive. Here a simple median centroid heurstic is implemented to split the primitives. That is during the construction of BVH, at each level of the tree, primitives are partitioned into left node and right node based on the centroid position of the primitives.  The intersection algorithm time complexity reduces roughly from O(N) to O(logN) where N is the number of primtives. 
   
