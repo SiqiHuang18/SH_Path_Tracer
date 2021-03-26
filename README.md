@@ -37,6 +37,6 @@ Below are experiment results on two test meshes with output image size 800x600. 
 
 <img src="images/bbox/peter.png" width="300px" /> | <img src="images/bbox/cow.png" width="300px" />|
 |-|-|
-0.158 s wth BVH| 0.1822 s with BVH|
+0.158 s wth BVH| 0.182 s with BVH|
 330 s without BVH | 36 s with BVH|
 
