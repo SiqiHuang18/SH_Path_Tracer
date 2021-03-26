@@ -40,3 +40,11 @@ Below are experiment results on two test meshes with output image size 800x600. 
 0.158 s wth BVH| 0.182 s with BVH|
 330 s without BVH | 36 s with BVH|
 
+<h2 align="middle">Part 3: Direct Light Illumination</h2>
+In this part I walk through implementation and result of direct hemisphere sampling and light importance sampling.
+Here we assume that each pixel color is only the result of emissive component at the point plus some direct lighting from some light sources.
+Thus once the camera ray intersect something in the scene, a direction need to be chosen in order to cast a new ray and find the light sources.
+In the case of hemisphere sampling, a direction is sampled from a unit hemisphere. In the case of light importance sampling, 
+direction is set by directly connecting light sources and intersection point. Before the light source illuminance can be added, 
+the ray casted from the intersection point also checks if there is something else between it and the light source. If no illuminance reaches that 
+point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
