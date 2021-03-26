@@ -51,3 +51,10 @@ In the case of hemisphere sampling, a direction is sampled from a unit hemispher
 direction is set by directly connecting light sources and intersection point. Before the light source illuminance can be added, 
 the ray casted from the intersection point also checks if there is something else between it and the light source. If no illuminance reaches that 
 point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
+
+|Hemisphere Sampling|Light Importance Sampling| 
+| | <img src="images/Direct_lighting/CBunny_l_16_8.png" width="300px" />|
+|-|-|
+| | <img src="images/Direct_lighting/banana_l_16_8.png" width="300px" />|
+|-|-|
+| | <img src="images/Direct_lighting/beast_l_16_8.png" width="300px" />|
