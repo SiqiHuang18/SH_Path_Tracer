@@ -21,6 +21,7 @@ Besides the origin and direction value, we attach additional t_min and t_max val
    |-|-|
    Intersection with spheres in cornell box | Intersection with triangle meshes in cornell box|
 
+
   <h2 align="middle">Part 2: Bounding Volume Hierarchy</h2>
   
   Bounding volume hierarchy utilizes tree structures to accelerate ray scene intersection tests. At each level, geometric primitives are grouped into several bounding boxes, so that each ray can intersect bounding boxes first before intersecting the actual primitive. Here a simple median centroid heurstic is implemented to split the primitives. That is during the recursive construction of BVH, at each level of the tree, each primitive is partitioned into left node or right node based on the comparison between its centroid position and the median of all primitive centroids at this level. The intersection algorithm time complexity reduces roughly from O(N) to O(logN) where N is the number of primtives. 
@@ -40,8 +41,10 @@ Below are experiment results on two test meshes with output image size 800x600. 
 0.158 s wth BVH| 0.182 s with BVH|
 330 s without BVH | 36 s with BVH|
 
+
 <h2 align="middle">Part 3: Direct Light Illumination</h2>
 In this part I walk through implementation and result of direct hemisphere sampling and light importance sampling.
+
 Here we assume that each pixel color is only the result of emissive component at the point plus some direct lighting from some light sources.
 Thus once the camera ray intersect something in the scene, a direction need to be chosen in order to cast a new ray and find the light sources.
 In the case of hemisphere sampling, a direction is sampled from a unit hemisphere. In the case of light importance sampling, 
