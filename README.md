@@ -33,7 +33,7 @@ Besides the origin and direction value, we attach additional t_min and t_max val
 Second level of BVH constructed on a Utah Teapot
 </p>
 
-Below are experiment results on two test meshes with output image size 800x600
+Below are experiment results on two test meshes with output image size 800x600. The speed gain from BVH are dramatic. With logarithmic improvement on runtime,the Peter mesh on the left with ten times more triangle meshes than the cow mesh on the right have similar performance on runtime.  
 
 <img src="images/bbox/peter.png" width="300px" /> | <img src="images/bbox/cow.png" width="300px" />|
 |-|-|
