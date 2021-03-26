@@ -27,7 +27,7 @@ Besides the origin and direction value, we attach additional t_min and t_max val
 <div align="center">  
   <table style="width=100%">
     <tr>
-      <td align="middle">
+        <td align="middle">
         <img src="images/bbox/teapot.png" width="480px" />
         <figcaption align="middle">Second level of BVH constructed on a Utah Teapot</figcaption>
    </tr>
