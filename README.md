@@ -62,7 +62,7 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 |<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
 |<img src="images/Direct_lighting/beast_H_16_8.png" width="480px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="480px" />|
 
-
+|images with different number of light rays|
 |-|
 | 1 light ray|
 |<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="300px"/>|
