@@ -17,7 +17,7 @@ Besides the origin and direction value, we attach additional t_min and t_max val
     
  Below are results of intersection algorithm. Color visualized here represents the value of normal of the intersected surfaces.
  
-   <img src="images/ray/CBsphere_n.png" width="300px" /> | <img src="images/ray/CBgem_n.png" width="300px" />|
+   <img src="images/ray/CBsphere_n.png" width="480px" /> | <img src="images/ray/CBgem_n.png" width="480px" />|
    |-|-|
    Intersection with spheres in cornell box | Intersection with triangle meshes in cornell box|
 
