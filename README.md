@@ -59,16 +59,16 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 
 |Hemisphere Sampling|Light Importance Sampling| 
 |-|-|
-|<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
-|<img src="images/Direct_lighting/beast_H_16_8.png" width="480px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="480px" />|
+|<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="400px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="400px" />|
+|<img src="images/Direct_lighting/beast_H_16_8.png" width="400px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="400px" />|
 
 |images with different number of light rays|
 |-|
-| 1 light ray|
+| 1 light rays|
 |<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="300px"/>|
-| 4 light ray|
+| 4 light rays|
 |<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="300px"/>|
-| 16 light ray|
+| 16 light rays|
 |<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="300px"/>|
-| 64 light ray|
+| 64 light rays|
 |<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="300px"/>|
