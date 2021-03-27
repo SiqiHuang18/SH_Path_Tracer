@@ -53,8 +53,8 @@ direction is set by directly connecting light sources and intersection point. Be
 the ray casted from the intersection point also checks if there is something else between it and the light source. If no illuminance reaches that 
 point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
 
-|-|-|
+
 |Hemisphere Sampling|Light Importance Sampling| 
-|<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
 |-|-|
+|<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
 |<img src="images/Direct_lighting/beast_H_16_8.png" width="480px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="480px" />|
