@@ -55,9 +55,13 @@ point and there is no emission, then a shadow is formed. So this ray is also cal
 
 Two test images below are rendered with 16 samples per pixel and 8 samples per light source. Notice that in the bunny scene, light importance sampling
 direct lighting produces much less noisy image than than the hemisphere sampling. In the beast scene with directional light source only, the shadow ray
-is not able to find the emitting light source. Thus the image produced is all black.
+is not able to find the emitting light source with hemisphere sampling. Thus the image produced is all black.
 
 |Hemisphere Sampling|Light Importance Sampling| 
 |-|-|
 |<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
 |<img src="images/Direct_lighting/beast_H_16_8.png" width="480px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="480px" />|
+
+
+|-|-|-|-|
+|<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="300px"/>|
