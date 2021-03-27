@@ -63,5 +63,12 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 |<img src="images/Direct_lighting/beast_H_16_8.png" width="480px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="480px" />|
 
 
-|-|-|-|-|
-|<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="300px"/>|<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="300px"/>|
+|-|
+| 1 light ray|
+|<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="300px"/>|
+| 4 light ray|
+|<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="300px"/>|
+| 16 light ray|
+|<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="300px"/>|
+| 64 light ray|
+|<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="300px"/>|
