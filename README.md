@@ -53,6 +53,6 @@ the ray casted from the intersection point also checks if there is something els
 point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
 
 |Hemisphere Sampling|Light Importance Sampling| 
-|<img src="images/Direct_lighting/Cbunny_H_16_8.png" width="300px" />  | <img src="images/Direct_lighting/CBunny_l_16_8.png" width="300px" />|
+|<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="300px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="300px" />|
 |-|-|
 |<img src="images/Direct_lighting/beast_H_16_8.png" width="300px" /> | <img src="images/Direct_lighting/beast_l_16_8.png" width="300px" />|
