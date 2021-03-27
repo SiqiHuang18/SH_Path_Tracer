@@ -36,7 +36,7 @@ Second level of BVH constructed on a Utah Teapot
 
 Below are experiment results on two test meshes with output image size 800x600. The speed gain from BVH are dramatic. With logarithmic improvement on runtime,the Peter mesh on the left with ten times more triangle meshes than the cow mesh on the right have similar performance on runtime.  
 
-|-|-|
+
 <img src="images/bbox/peter.png" width="480px" /> | <img src="images/bbox/cow.png" width="480px" />|
 |-|-|
 0.158 s wth BVH| 0.182 s with BVH|
@@ -53,6 +53,7 @@ direction is set by directly connecting light sources and intersection point. Be
 the ray casted from the intersection point also checks if there is something else between it and the light source. If no illuminance reaches that 
 point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
 
+|-|-|
 |Hemisphere Sampling|Light Importance Sampling| 
 |<img src="images/Direct_lighting/CBbunny_H_16_8.png" width="480px" />  | <img src="images/Direct_lighting/CBbunny_l_16_8.png" width="480px" />|
 |-|-|
