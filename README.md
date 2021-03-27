@@ -53,6 +53,9 @@ direction is set by directly connecting light sources and intersection point. Be
 the ray casted from the intersection point also checks if there is something else between it and the light source. If no illuminance reaches that 
 point and there is no emission, then a shadow is formed. So this ray is also called shadow ray.
 
+Two test images below are rendered with 16 samples per pixel and 8 samples per light source. Notice that in the bunny scene, light importance sampling
+direct lighting produces much less noisy image than than the hemisphere sampling. In the beast scene with directional light source only, the shadow ray
+is not able to find the emitting light source. Thus the image produced is all black.
 
 |Hemisphere Sampling|Light Importance Sampling| 
 |-|-|
