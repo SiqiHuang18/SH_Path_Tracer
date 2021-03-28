@@ -46,7 +46,8 @@ Below are experiment results on two test meshes with output image size 800x600. 
 <h2 align="middle">Part 3: Direct Light Illumination</h2>
 In this part I walk through implementation and result of direct hemisphere sampling and light importance sampling.
 
-Here we assume that each pixel color is only the result of emissive component at the point plus some direct lighting from some light sources.
+Here we assume that each pixel color is only the result of emissive component at the intersection point plus some direct lighting from some light sources.
+** total_radiance = zero_bounce_radiance + one_bounce_radiance **
 Thus once the camera ray intersect something in the scene, a direction need to be chosen in order to cast a new ray and find the light sources.
 In the case of hemisphere sampling, a direction is sampled from a unit hemisphere. In the case of light importance sampling, 
 direction is set by directly connecting light sources and intersection point. Before the light source illuminance can be added, 
@@ -72,3 +73,9 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 |<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="400px"/>|
 | 64 light rays|
 |<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="400px"/>|
+
+
+<h2 align="middle">Part 4: Global Light Illumination</h2>
+
+Global illummination is extended from direction illuminance by replacing one bound radiance evaluated at light source 
+recursive evaluation of radiance
