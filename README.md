@@ -107,8 +107,9 @@ Below are results of global illumination with increasing number of ray samples. 
 |<img src="images/Indirect/spheres_1024_4_g.png" width="400px"/>|
 
 In comparison, in the scene without global illumination , we see a hard shadow under sphere and a black ceiling because no direct light 
-reaches there. We also see a 
-<img src="images/Indirect/spheres_1024_d.png" width="400px"/>
+reaches there. 
+
+<img src="images/Indirect/sphere.png" width="400px"/>
 
 
 <h2 align="middle">Part 5: Adaptive Sampling</h2>
