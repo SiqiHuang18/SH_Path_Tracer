@@ -48,7 +48,7 @@ In this part I walk through implementation and result of direct hemisphere sampl
 
 Here we assume that each pixel color is only the result of emissive component at the intersection point plus some direct lighting from some light sources.
 
-total_radiance = zero_bounce_radiance + one_bounce_radiance
+**total_radiance = zero_bounce_radiance + one_bounce_radiance**
 
 Thus once the camera ray intersect something in the scene, a direction need to be chosen in order to cast a new ray and find the light sources.
 In the case of hemisphere sampling, a direction is sampled from a unit hemisphere. In the case of light importance sampling, 
