@@ -79,11 +79,28 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 
 <h2 align="middle">Part 4: Global Light Illumination</h2>
 
-Global illummination is extended from direction illuminance by replacing one bound radiance evaluated at light source 
-recursive evaluation of radiance
+Global illummination is extended from direction illuminance by replacing one bounce radiance with at least one bounce radiance.  
+This is a recursive evaluation of radiance by tracing light ray from both emitting and non-emitting sources including light reflected and refracted. 
 
 **total_radiance = zero_bounce_radiance + at_least_one_bounce_radiance**
 
 where 
 
 **at_least_one_bounce_radiance = one_bounce_radiance + constant*at_least_one_bounce_radiance** 
+
+The recursive ray tracing terminates either when the ray reaches a specified max depth or with a pre-defined probability called Ruassian-Roullete. 
+Ruassian-Roullete termination offers an unbiased estimate of infinite dimensional integral of light radiance.
+
+Below are results of global illumination with increasing number of ray samples. 
+
+|-|
+| 1 sample|
+|<img src="images/Indirect/spheres_1_4_g.png" width="400px"/>|
+| 4 samples|
+|<img src="images/Indirect/spheres_4_4_g.png" width="400px"/>|
+| 16 samples|
+|<img src="images/Indirect/spheres_16_4_g.png" width="400px"/>|
+| 64 samples|
+|<img src="images/Indirect/spheres_64_4_g.png" width="400px"/>|
+| 1024 samples|
+|<img src="images/Indirect/spheres__1024_g.png.png" width="400px"/>|
