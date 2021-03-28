@@ -114,3 +114,10 @@ reaches there.
 
 <h2 align="middle">Part 5: Adaptive Sampling</h2>
 
+Each pixel has different speed of converging to the real value. Thus as we sample camera rays at each pixel we can use z-test to check for 
+convergence. If sample variance is within a fraction of sample mean, we can terminate sampling early and reduce computation cost.
+In our experiment time to render the Cornell Box Sphere scene of size 480X360,  1024 samples per pixel, 4 samples per light are compared
+|time with adaptive sampling|time without adaptive sampling|
+|-|-|
+|360 s|238 s|
+
