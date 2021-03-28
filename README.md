@@ -91,7 +91,9 @@ where
 The recursive ray tracing terminates either when the ray reaches a specified max depth or with a pre-defined probability called Ruassian-Roullete. 
 Ruassian-Roullete termination offers an unbiased estimate of infinite dimensional integral of light radiance.
 
-Below are results of global illumination with increasing number of ray samples. 
+Below are results of global illumination with increasing number of ray samples. As the sample number increases, we see a 
+less noisy scene and a dramatic visual change scene that more closely matches the real physics.
+
 |lambertian spheres in Cornell Box|
 |-|
 | 1 sample|
@@ -103,4 +105,8 @@ Below are results of global illumination with increasing number of ray samples.
 | 64 samples|
 |<img src="images/Indirect/spheres_64_4_g.png" width="400px"/>|
 | 1024 samples|
-|<img src="images/Indirect/spheres_1024_g.png.png" width="400px"/>|
+|<img src="images/Indirect/spheres_1024_4_g.png" width="400px"/>|
+
+By comparison in the scene without global illumination ,we see a hard shadow under sphere and a black ceiling because no direct light 
+reaches there.
+|<img src="images/Indirect/spheres_1024_d.png" width="400px"/>|
