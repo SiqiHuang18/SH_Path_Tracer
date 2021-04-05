@@ -4,7 +4,14 @@
 All results tested on Macbook Pro 2.4 GHz Dual-Core Intel Core i5
 
   <h2 align="middle">Overview</h2>
-   This is a cpu based path tracer that implements the core rendering loop from ray generation and intersection to global illumination. It has acceleration strategy like bounding volume hierachy and adaptive sampling and supports various materials, environment lighting and depth of field. Each core functionality is demonstrated in this writeup. This project builds upon the starter code of UC Berekeley CS184 Assignment 3.     
+   This is a cpu based path tracer that implements the core rendering loop from ray generation and intersection to global illumination. It has acceleration strategy like bounding volume hierachy and adaptive sampling and supports various materials, environment lighting and depth of field. Each core functionality is demonstrated in this writeup. This project builds upon the starter code of UC Berekeley CS184 Assignment 3.   
+The features implemented in this path tracer are
+   * Ray Generation and Scene Intersection
+   * Bounding Volume Hierarchy
+   * Direct Light Illumination
+   * Global Light Illumination
+   * Adaptive Sampling
+   * Mirror and Glass Material
    
   <h2 align="middle">Part 1: Ray Generation and Scene Intersection</h2>
 
@@ -120,7 +127,7 @@ In our experiment time to render the Cornell Box Sphere scene of size 480X360,  
 |-|-|
 |360 s|238 s|
 
-<h2 align="middle">Part 5: Mirror and Glass Material </h2>
+<h2 align="middle">Part 6: Mirror and Glass Material </h2>
 | Ray depth 0 |
 |<img src="images/Mirror_Glass/spheres_0.png" width="400px"/>|
 | Ray depth 1 |
