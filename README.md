@@ -133,7 +133,7 @@ Before I only dealt with diffuse surface where radiance at each point is assumed
 
 The test scene has one purely reflective sphere on the left and a glass sphere on the right. When ray depth is one, only the reflective surface with direct lighting can be seen, indirect lighting is not yet counted . When ray depth is 2, all the reflected scene shows up. But the refractive surface is still black because light refracted into the sphere need to bounce twice to go through the sphere. As the maximum ray depth increases, we can see that light ray that go through more than one bounce "escapes" and shines on the right wall.
 
-
+All the test scenes are rendered with 128 samples/pixel and 4 samples/light
 
 |Glass material results with different recursive ray depth|
 |-|
