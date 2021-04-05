@@ -114,10 +114,26 @@ reaches there.
 
 <h2 align="middle">Part 5: Adaptive Sampling</h2>
 
-Each pixel has different speed of converging to the real value. Thus as we sample camera rays at each pixel we can use z-test to check for 
-convergence. If sample variance is within a fraction of sample mean, we can terminate sampling early and reduce computation cost.
+Each pixel has different speed of converging to the real value. Thus as we sample camera rays at each pixel we can keep track of sum and sum of square in order to compute mean and variance and use z-test to check for convergence. If sample variance is within a fraction of sample mean, we can terminate sampling early and reduce computation cost.
 In our experiment time to render the Cornell Box Sphere scene of size 480X360,  1024 samples per pixel, 4 samples per light are compared
 |time with adaptive sampling|time without adaptive sampling|
 |-|-|
 |360 s|238 s|
 
+<h2 align="middle">Part 5: Mirror and Glass Material </h2>
+| Ray depth 0 |
+|<img src="images/Mirror_Glass/spheres_0.png" width="400px"/>|
+| Ray depth 1 |
+|<img src="images/Mirror_Glass/spheres_1.png" width="400px"/>|
+| Ray depth 2|
+|<img src="images/Mirror_Glass/spheres_2.png" width="400px"/>|
+| Ray depth 3|
+|<img src="images/Mirror_Glass/spheres_3.png" width="400px"/>|
+| Ray depth 4|
+|<img src="images/Mirror_Glass/spheres_4.png" width="400px"/>|
+| Ray depth 5|
+|<img src="images/Mirror_Glass/spheres_5.png" width="400px"/>|
+| Ray depth 100|
+|<img src="images/Mirror_Glass/spheres_100.png" width="400px"/>|
+
+| Ray depth 100 | 
