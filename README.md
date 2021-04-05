@@ -129,6 +129,12 @@ In our experiment time to render the Cornell Box Sphere scene of size 480X360,  
 
 <h2 align="middle">Part 6: Mirror and Glass Material </h2>
 
+Before I only dealt with diffuse surface where radiance at each point is assumed be the sum of radiance from all directions under a hemisphere. Thus to trace a path at diffuse surface I need to sample a random direction. However at reflective and refractive surface, the path tracing direction need to follow physical laws like law of reflection and law of refraction. Glass material is a dielectric object where both reflection and refracion happens. I can then compute reflective coefficient R_theta that telss how much light is reflected with a approximation of Fresnel equaiton: Schilick's approximation. The refractive coefficient is just 1 - R_tehta. 
+
+The test scene has one purely reflective sphere on the left and a glass sphere on the right. When ray depth is one, only the reflective surface with direct lighting can be seen, indirect lighting is not yet counted . When ray depth is 2, all the reflected scene shows up. But the refractive surface is still black because light refracted into the sphere need to bounce twice to go through the sphere. As the maximum ray depth increases, we can see that light ray that go through more than one bounce "escapes" and shines on the right wall.
+
+
+
 |Glass material results with different recursive ray depth|
 |-|
 | Ray depth 0 |
@@ -146,4 +152,4 @@ In our experiment time to render the Cornell Box Sphere scene of size 480X360,  
 | Ray depth 100|
 |<img src="images/Mirror_Glass/spheres_100.png" width="400px"/>|
 
-| Ray depth 100 | 
+
