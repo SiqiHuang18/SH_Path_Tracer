@@ -75,13 +75,13 @@ is not able to find the emitting light source with hemisphere sampling. Thus the
 |images with different number of light rays|
 |-|
 | 1 light rays|
-|<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="400px"/>|
+|<img src="images/Direct_lighting/CBbunny_l_1_1.png" width="480px"/>|
 | 4 light rays|
-|<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="400px"/>|
+|<img src="images/Direct_lighting/CBbunny_l_1_4.png" width="480px"/>|
 | 16 light rays|
-|<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="400px"/>|
+|<img src="images/Direct_lighting/CBbunny_l_1_16.png" width="480px"/>|
 | 64 light rays|
-|<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="400px"/>|
+|<img src="images/Direct_lighting/CBbunny_l_1_64.png" width="480px"/>|
 
 
 <h2 align="middle">Part 4: Global Light Illumination</h2>
@@ -103,15 +103,15 @@ Below are results of global illumination with increasing number of ray samples. 
 |lambertian spheres in Cornell Box|
 |-|
 | 1 sample|
-|<img src="images/Indirect/spheres_1_4_g.png" width="400px"/>|
+|<img src="images/Indirect/spheres_1_4_g.png" width="480px"/>|
 | 4 samples|
-|<img src="images/Indirect/spheres_4_4_g.png" width="400px"/>|
+|<img src="images/Indirect/spheres_4_4_g.png" width="480px"/>|
 | 16 samples|
-|<img src="images/Indirect/spheres_16_4_g.png" width="400px"/>|
+|<img src="images/Indirect/spheres_16_4_g.png" width="480px"/>|
 | 64 samples|
-|<img src="images/Indirect/spheres_64_4_g.png" width="400px"/>|
+|<img src="images/Indirect/spheres_64_4_g.png" width="480px"/>|
 | 1024 samples|
-|<img src="images/Indirect/spheres_1024_4_g.png" width="400px"/>|
+|<img src="images/Indirect/spheres_1024_4_g.png" width="480px"/>|
 
 In comparison, in the scene without global illumination , we see a hard shadow under sphere and a black ceiling because no direct light 
 reaches there. 
@@ -138,18 +138,18 @@ The test scene has one purely reflective sphere on the left and a glass sphere o
 |Glass material results with different recursive ray depth|
 |-|
 | Ray depth 0 |
-|<img src="images/Mirror_Glass/spheres_0.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_0.png" width="480px"/>|
 | Ray depth 1 |
-|<img src="images/Mirror_Glass/spheres_1.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_1.png" width="480px"/>|
 | Ray depth 2|
-|<img src="images/Mirror_Glass/spheres_2.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_2.png" width="480px"/>|
 | Ray depth 3|
-|<img src="images/Mirror_Glass/spheres_3.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_3.png" width="480px"/>|
 | Ray depth 4|
-|<img src="images/Mirror_Glass/spheres_4.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_4.png" width="480px"/>|
 | Ray depth 5|
-|<img src="images/Mirror_Glass/spheres_5.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_5.png" width="480px"/>|
 | Ray depth 100|
-|<img src="images/Mirror_Glass/spheres_100.png" width="400px"/>|
+|<img src="images/Mirror_Glass/spheres_100.png" width="480px"/>|
 
 
