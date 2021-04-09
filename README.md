@@ -12,6 +12,7 @@ All results tested on Macbook Pro 2.4 GHz Dual-Core Intel Core i5
 * Global Light Illumination
 * Adaptive Sampling
 * Mirror and Glass Material
+* Microfacet Material
    
   <h2 align="middle">Part 1: Ray Generation and Scene Intersection</h2>
 
@@ -153,3 +154,4 @@ All the test scenes are rendered with 128 samples/pixel and 4 samples/light
 |<img src="images/Mirror_Glass/spheres_100.png" width="480px"/>|
 
 
+<h2 align="middle">Part 7: Microfacet Material </h2>
