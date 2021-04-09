@@ -155,14 +155,19 @@ All the test scenes are rendered with 128 samples/pixel and 4 samples/light
 
 
 <h2 align="middle">Part 7: Microfacet Material </h2>
-Gold dragon with increasing alpha
+
+|Gold dragon with increasing alpha|
 |-|
+|alpha = 0.005|
 |<img src="images/Microfacets/dragon_m_0005.png" width="480px"/>|
+|alpha = 0.05|
 |<img src="images/Microfacets/dragon_m_005.png" width="480px"/>|
+|alpha = 0.25|
 |<img src="images/Microfacets/dragon_m_025.png" width="480px"/>|
+|alpha = 0.5|
 |<img src="images/Microfacets/dragon_m_05.png" width="480px"/>|
 
 Copper Bunny with different sampling methods
 |-|-|
-|<img src="images/Microfacets/bunny_m_h.png" width="480px"/>|<img src="images/Microfacets/bunny_m_i.png" width="480px"/>|
+|<img src="images/Microfacets/bunny_m_h.png" width="200px"/>|<img src="images/Microfacets/bunny_m_i.png" width="300px"/>|
 |Cosine hemisphere sampling|Beckmann Importance Sampling|
