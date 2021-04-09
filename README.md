@@ -169,5 +169,6 @@ All the test scenes are rendered with 128 samples/pixel and 4 samples/light
 
 Copper Bunny with different sampling methods
 
-<img src="images/Microfacets/bunny_m_h.png" width="400px"/>|<img src="images/Microfacets/bunny_m_i.png" width="400px"/>|
-Cosine hemisphere sampling|Beckmann Importance Sampling|
+|<img src="images/Microfacets/bunny_m_h.png" width="400px"/>|<img src="images/Microfacets/bunny_m_i.png" width="400px"/>|
+|-|-|
+|Cosine hemisphere sampling|Beckmann Importance Sampling|
