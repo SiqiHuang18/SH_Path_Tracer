@@ -167,7 +167,7 @@ All the test scenes are rendered with 128 samples/pixel and 4 samples/light
 |alpha = 0.5|
 |<img src="images/Microfacets/dragon_m_05.png" width="480px"/>|
 
-Copper Bunny with different sampling methods
+|Copper Bunny with different sampling methods|
 |-|-|
-|<img src="images/Microfacets/bunny_m_h.png" width="200px"/>|<img src="images/Microfacets/bunny_m_i.png" width="300px"/>|
+|<img src="images/Microfacets/bunny_m_h.png" width="300px"/>|<img src="images/Microfacets/bunny_m_i.png" width="300px"/>|
 |Cosine hemisphere sampling|Beckmann Importance Sampling|
